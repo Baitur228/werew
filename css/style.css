@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p {border: 1px solid red;
+width: 400px;
+padding:  20px 40px 20px 40px;
+padding-top: 20px;
+padding-left: 40px ;
+padding-right: 40px;
+padding-bottom: 20px;
+margin: 40px 10%;
+display: inline-block;
+}
+.firs_paragraph{
+    font-size: 1.2em; 
+    font-weight: 700;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.second_paragraph {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+}
+.firs_paragraph::first-letter{
+    margin-left: 30px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    margin: 100px;
+    transition: 0. 3s all linear;
+
+}
+
+a:hover{
+    color: tomato;
+}
+ul{
+    list-style:none;
+}
+ul li{ 
+    display: inline-block;
+    margin: 0 7%;
+}
+ul li  a{
+    margin: 0;
+}
+li .line{
+    width: 0;
+    height: 3px;
+    background-color: tomato;
+    transition: 0.3s all linear;
+    margin-left: auto;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin: 0 7%;
+}
+ul li a{
+    margin: 0;
+}
+li .line {
+    width: 0;
+    height: 3px;
+    background-color: tomato;
+    transition: 0.3s all linear;
+    margin-left: auto;
+
+}
+li:hover .line{
+    width: 100%;
+    margin-left: 0;
+}
+
+ 
+
+
+
